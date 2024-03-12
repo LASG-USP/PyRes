@@ -1,0 +1,22 @@
+
+# ------------------------------- Optimization Variables ------------------------------- #
+optimization_type: "simple_npv"
+optimization_engine: "pso"
+maximization: True
+vars_keywords: ["ISO4$","ICa$","ICl$","IMg$","INa$","INJ_RATE$","INJ_PRES$","PRD_RATE$","PRD_PRES$","krog1$","krog2$"]
+low_range: [200, 200, 200, 200, 200, 1500, 10000, 1000, 1000]
+high_range: [5000, 5000, 15000, 5000, 15000, 5000, 34000, 2000, 18000]
+
+formation_salinity: [
+  0,        # ISO4
+  1000,     # Ca 
+  17000,    # Cl
+  100,      # Mg
+  17000,    # Na
+  0.50,     # Calcite %
+  0.50      # Dolomite %
+]
+
+vars: [1, 1, 1, 1, 1]
+lo_vars: [-1, -1, -1, -1, -1]
+hi_vars: [1000, 1000, 1000, 1000, 1000]

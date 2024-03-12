@@ -1,0 +1,24 @@
+oil_price: 54.75512
+oil_cost: 10.9383262
+oil_price_variation: 0.00
+oil_brent: 1.00
+
+gas_price: 0.074457
+gas_cost: 0.0038157
+gas_inj_cost: 0.00
+
+water_prd_cost: 1.0938326
+water_inj_cost: 1.36729075
+water_prd_cost_variation: 0.00
+water_inj_cost_variation: 0.00
+
+royalties: 0.1
+pis: 0.0165
+cofins: 0.076
+taxes: 0.25
+social_contribution: 0.09
+depreciation_time: 10
+start_date: '09/30/2016'
+field_type: 3
+
+

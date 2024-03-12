@@ -1,0 +1,12 @@
+# Simulation Configuration =============================================
+cmg_gem_path: 'C:\Program Files (x86)\CMG\GEM\2017.10\Win_x64\EXE\gm201710.exe'     # CMG GEM Simulator application path
+cmg_imex_path: 'C:\Program Files (x86)\CMG\IMEX\2017.10\Win_x64\EXE\mx201710.exe'   # CMG IMEX Simulator application path
+cmg_report_path: 'C:\Program Files (x86)\CMG\BR\2017.10\Win_x64\EXE\report.exe'     # CMG Report Execute application path
+simulation_template_path: 'C:\Users\3297950\Documents\python\new_pyres\PyRes\src\templates\U2D_TPL_20Y.dat'
+simulation_filename: "unisim2_test_revenue"
+simulator_type: 'GEM'                                                               # Compositional [GEM], Brack Oil [IMEX]
+auto_exit: True                                                                     # Auto Close Simulation Propt-Window [True/False]
+rwd_file_type: 'period'                                                             # .rwo file type ['period'/'rate']
+cpu_set: 4                                                                          # Number of parallel executions [1/2/4/8] or ['auto'] - Max based in your processor
+timer: False                                                                        # Simulation timer [True/False]
+output_plot: True                                                                   # Output plot

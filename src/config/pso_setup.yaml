@@ -1,0 +1,8 @@
+# -------------------------- Particle Swarm Optimization Setup ------------------------- #
+kappa: 1                  # Exploration factor
+phi1: 2.05                # Cognitive component
+phi2: 2.05                # Social component
+interations: 10           # interactions number
+population: 5             # population size
+wdamp: 1                  # Dampign factor
+show_info: True           # Display info flag [True\False]
